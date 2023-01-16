@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{85EE3BCB-1377-4D7F-831B-49736C9751A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{76F10535-F9A2-4E5D-9788-88E17484519A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0B60AE9-35AB-4274-AF5B-F29954019F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale.Backend.API", "Backend\src\DotNetSale.Backend.API\DotNetSale.Backend.API.csproj", "{D59C2C21-CAE5-4DC6-AE33-ED208A160AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale.Backend.Data", "Backend\src\DotNetSale.Backend.Data\DotNetSale.Backend.Data.csproj", "{BE938E84-E782-4440-A9BD-676CF86B6995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale.Backend.Service", "Backend\src\DotNetSale.Backend.Service\DotNetSale.Backend.Service.csproj", "{9C0098F4-79E2-41DE-9E33-9DC035E8BDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale.Backend.Model", "Backend\src\DotNetSale.Backend.Model\DotNetSale.Backend.Model.csproj", "{B718B9E0-9FF8-419B-B79F-6174BD4C439F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D59C2C21-CAE5-4DC6-AE33-ED208A160AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59C2C21-CAE5-4DC6-AE33-ED208A160AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59C2C21-CAE5-4DC6-AE33-ED208A160AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59C2C21-CAE5-4DC6-AE33-ED208A160AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE938E84-E782-4440-A9BD-676CF86B6995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE938E84-E782-4440-A9BD-676CF86B6995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE938E84-E782-4440-A9BD-676CF86B6995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE938E84-E782-4440-A9BD-676CF86B6995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0098F4-79E2-41DE-9E33-9DC035E8BDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0098F4-79E2-41DE-9E33-9DC035E8BDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0098F4-79E2-41DE-9E33-9DC035E8BDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0098F4-79E2-41DE-9E33-9DC035E8BDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B718B9E0-9FF8-419B-B79F-6174BD4C439F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B718B9E0-9FF8-419B-B79F-6174BD4C439F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B718B9E0-9FF8-419B-B79F-6174BD4C439F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B718B9E0-9FF8-419B-B79F-6174BD4C439F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0B60AE9-35AB-4274-AF5B-F29954019F31} = {85EE3BCB-1377-4D7F-831B-49736C9751A7}
+		{D59C2C21-CAE5-4DC6-AE33-ED208A160AC7} = {D0B60AE9-35AB-4274-AF5B-F29954019F31}
+		{BE938E84-E782-4440-A9BD-676CF86B6995} = {D0B60AE9-35AB-4274-AF5B-F29954019F31}
+		{9C0098F4-79E2-41DE-9E33-9DC035E8BDE6} = {D0B60AE9-35AB-4274-AF5B-F29954019F31}
+		{B718B9E0-9FF8-419B-B79F-6174BD4C439F} = {D0B60AE9-35AB-4274-AF5B-F29954019F31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA2C9C4A-5FA1-4189-BED1-5D547C3A2DD3}
+	EndGlobalSection
+EndGlobal
