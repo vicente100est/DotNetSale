@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DotNetSale.Backend.Data\DotNetSale.Backend.Data.csproj" />
-  </ItemGroup>
-
 </Project>
